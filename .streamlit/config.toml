@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#1F4E78"
+
+[server]
+maxUploadSize = 25          # MB; large enough for a year of invoices
+
+[client]
+toolbarMode = "viewer"      # hide developer menu items such as "Deploy"
+
+[browser]
+gatherUsageStats = false
