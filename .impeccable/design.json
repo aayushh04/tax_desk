@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-26T12:00:00+00:00",
+  "title": "Design System: TaxDesk",
+  "extensions": {
+    "colorMeta": {
+      "report-navy": {
+        "role": "primary",
+        "displayName": "Report Navy",
+        "canonical": "#14213D",
+        "tonalRamp": [
+          "#060B17",
+          "#1C2537",
+          "#36425A",
+          "#52617F",
+          "#7282A2",
+          "#97A5C1",
+          "#BDCAE1",
+          "#E5EFFF"
+        ]
+      },
+      "cool-ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "canonical": "#F3F5F8",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#242526",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#A4A5A7",
+          "#C8C9CB",
+          "#EDEEF0"
+        ]
+      },
+      "sheet-white": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "statement-rule": {
+        "role": "neutral",
+        "displayName": "Statement Rule",
+        "canonical": "#D5DBE5",
+        "tonalRamp": [
+          "#090B0E",
+          "#22252A",
+          "#3E4248",
+          "#5D6169",
+          "#7E838B",
+          "#A1A5AD",
+          "#C6C9D0",
+          "#ECEFF4"
+        ]
+      },
+      "row-hairline": {
+        "role": "neutral",
+        "displayName": "Row Hairline",
+        "canonical": "#E6EAF0",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#404246",
+          "#5E6166",
+          "#7F8388",
+          "#A2A5AA",
+          "#C7C9CD",
+          "#EDEFF1"
+        ]
+      },
+      "table-hairline": {
+        "role": "neutral",
+        "displayName": "Table Hairline",
+        "canonical": "#E1E6EE",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#232529",
+          "#3F4247",
+          "#5D6168",
+          "#7E8389",
+          "#A2A5AB",
+          "#C6C9CE",
+          "#ECEFF3"
+        ]
+      },
+      "input-well": {
+        "role": "neutral",
+        "displayName": "Input Well",
+        "canonical": "#E9EDF3",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#404246",
+          "#5E6166",
+          "#7F8387",
+          "#A2A5AA",
+          "#C7C9CD",
+          "#EDEFF1"
+        ]
+      },
+      "slate-muted": {
+        "role": "neutral",
+        "displayName": "Slate Muted",
+        "canonical": "#5A6782",
+        "tonalRamp": [
+          "#070B15",
+          "#1E2533",
+          "#394255",
+          "#55617A",
+          "#76829D",
+          "#9AA5BC",
+          "#C0C9DD",
+          "#E7EFFE"
+        ]
+      },
+      "note-ochre": {
+        "role": "secondary",
+        "displayName": "Note Ochre",
+        "canonical": "#C98A12",
+        "tonalRamp": [
+          "#1A0400",
+          "#3D1C00",
+          "#623700",
+          "#8A5300",
+          "#AE7500",
+          "#CC9B51",
+          "#EBC287",
+          "#FFE9BC"
+        ]
+      },
+      "note-ochre-text": {
+        "role": "secondary",
+        "displayName": "Note Ochre (text)",
+        "canonical": "#8F5E06",
+        "tonalRamp": [
+          "#180600",
+          "#391E00",
+          "#5D3900",
+          "#83570A",
+          "#A77836",
+          "#C69D68",
+          "#E5C397",
+          "#FFEAC8"
+        ]
+      },
+      "review-tint": {
+        "role": "secondary",
+        "displayName": "Review Tint",
+        "canonical": "#FBF4E6",
+        "tonalRamp": [
+          "#0D0B07",
+          "#28251E",
+          "#464139",
+          "#666156",
+          "#878276",
+          "#AAA49A",
+          "#CDC9C0",
+          "#F1EEE7"
+        ]
+      },
+      "risk-red": {
+        "role": "tertiary",
+        "displayName": "Risk Red",
+        "canonical": "#B42318",
+        "tonalRamp": [
+          "#260000",
+          "#4F0000",
+          "#7C1109",
+          "#AC2A1F",
+          "#D45141",
+          "#F17F6F",
+          "#FFAC9D",
+          "#FFD9CC"
+        ]
+      },
+      "risk-border": {
+        "role": "tertiary",
+        "displayName": "Risk Border",
+        "canonical": "#E7A9A3",
+        "tonalRamp": [
+          "#180504",
+          "#391B19",
+          "#5D3532",
+          "#84524D",
+          "#A8726D",
+          "#C79793",
+          "#E7BEBA",
+          "#FFE6E2"
+        ]
+      },
+      "risk-tint": {
+        "role": "tertiary",
+        "displayName": "Risk Tint",
+        "canonical": "#FCEFEE",
+        "tonalRamp": [
+          "#0E0A0A",
+          "#292323",
+          "#48403F",
+          "#695E5E",
+          "#8A7F7F",
+          "#ACA2A2",
+          "#CFC7C6",
+          "#F3EDEC"
+        ]
+      },
+      "agreed-green": {
+        "role": "tertiary",
+        "displayName": "Agreed Green",
+        "canonical": "#1F7A4D",
+        "tonalRamp": [
+          "#001103",
+          "#002F16",
+          "#084F2F",
+          "#217249",
+          "#479569",
+          "#76B68F",
+          "#A4D7B7",
+          "#D2FAE0"
+        ]
+      },
+      "agreed-border": {
+        "role": "tertiary",
+        "displayName": "Agreed Border",
+        "canonical": "#9CCBB2",
+        "tonalRamp": [
+          "#010F07",
+          "#122B1F",
+          "#2A4A3A",
+          "#436B57",
+          "#648D78",
+          "#8BAF9C",
+          "#B4D1C1",
+          "#DEF5E8"
+        ]
+      },
+      "agreed-tint": {
+        "role": "tertiary",
+        "displayName": "Agreed Tint",
+        "canonical": "#EEF7F2",
+        "tonalRamp": [
+          "#090C0A",
+          "#222624",
+          "#3E4440",
+          "#5C635F",
+          "#7D8480",
+          "#A0A7A3",
+          "#C5CBC8",
+          "#EBF0ED"
+        ]
+      },
+      "binding-hover": {
+        "role": "neutral",
+        "displayName": "Binding Hover",
+        "canonical": "#1E2E52",
+        "tonalRamp": [
+          "#050A19",
+          "#1A253A",
+          "#34425F",
+          "#4F6186",
+          "#6F82A9",
+          "#94A5C8",
+          "#BBC9E6",
+          "#E3EFFF"
+        ]
+      },
+      "binding-active": {
+        "role": "neutral",
+        "displayName": "Binding Active",
+        "canonical": "#23365F",
+        "tonalRamp": [
+          "#040A1B",
+          "#19243D",
+          "#324162",
+          "#4D618A",
+          "#6D82AD",
+          "#92A5CB",
+          "#B9CAEA",
+          "#E2EFFF"
+        ]
+      },
+      "binding-edge": {
+        "role": "neutral",
+        "displayName": "Binding Edge",
+        "canonical": "#2A3B62",
+        "tonalRamp": [
+          "#050A1A",
+          "#1A243B",
+          "#334160",
+          "#4F6187",
+          "#6F82AB",
+          "#94A5C9",
+          "#BBC9E8",
+          "#E3EFFF"
+        ]
+      },
+      "binding-text": {
+        "role": "neutral",
+        "displayName": "Binding Text",
+        "canonical": "#C9D2E3",
+        "tonalRamp": [
+          "#080B11",
+          "#21252D",
+          "#3C424D",
+          "#5A616F",
+          "#7B8391",
+          "#9FA5B2",
+          "#C4C9D4",
+          "#EAEFF7"
+        ]
+      },
+      "binding-caption": {
+        "role": "neutral",
+        "displayName": "Binding Caption",
+        "canonical": "#AEB9CF",
+        "tonalRamp": [
+          "#080B12",
+          "#202530",
+          "#3B4250",
+          "#586173",
+          "#798396",
+          "#9DA5B6",
+          "#C2C9D8",
+          "#E9EFFA"
+        ]
+      },
+      "selection-ochre": {
+        "role": "secondary",
+        "displayName": "Selection Ochre",
+        "canonical": "#F5E3BC",
+        "tonalRamp": [
+          "#100A01",
+          "#2D2410",
+          "#4C4127",
+          "#6E5F3F",
+          "#90815F",
+          "#B1A487",
+          "#D3C8B0",
+          "#F6EEDB"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Callout headline figure; one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title in the page header."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "TaxDesk name at the top of the sidebar."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Statement names and the Home Contents heading."
+      },
+      "note-title": {
+        "displayName": "Note title",
+        "purpose": "Note headings: number in ochre text, title in navy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose, subtitles and widget text, tabular figures."
+      },
+      "statement-body": {
+        "displayName": "Statement body",
+        "purpose": "Statement rows; subtotals 600, totals 700."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Callout captions, note counts, header meta."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Statement column heads only, uppercase."
+      },
+      "field-label": {
+        "displayName": "Field label",
+        "purpose": "Approval block field names, uppercase."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action per results band: the Excel download or the run action.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 4v11\"/><path d=\"M7 10l5 5 5-5\"/><path d=\"M5 20h14\"/></svg>Download Excel</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:.5rem; min-height:2.5rem; padding:0 1.4rem; background:var(--navy, #14213D); color:#fff; border:1px solid var(--navy, #14213D); border-radius:2px; font:500 1rem 'Public Sans', sans-serif; cursor:pointer; transition:background .15s; } .ds-btn-primary:hover { background:#23365F; } .ds-btn-primary:focus-visible { outline:2px solid var(--navy, #14213D); outline-offset:2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White square button for sample downloads, secondary exports and in-page jumps to a note.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#note-7\">Supplier emails (9)</a>",
+      "css": ".ds-btn-secondary { display:inline-flex; align-items:center; justify-content:center; min-height:2.5rem; padding:0 .8rem; background:#fff; border:1px solid var(--rule, #D5DBE5); border-radius:2px; color:var(--navy, #14213D); text-decoration:none; font:500 1rem 'Public Sans', sans-serif; transition:border-color .15s; } .ds-btn-secondary:hover { border-color:var(--navy, #14213D); } .ds-btn-secondary:focus-visible { outline:2px solid var(--navy, #14213D); outline-offset:2px; }"
+    },
+    {
+      "name": "Input Well",
+      "kind": "input",
+      "refersTo": "input-well",
+      "description": "Text inputs, selects and uploaders: grey well, hairline border, square corners.",
+      "html": "<label class=\"ds-field\"><span>Filter the notes by supplier name or GSTIN</span><input class=\"ds-input\" placeholder=\"Type to filter every table\"></label>",
+      "css": ".ds-field { display:flex; flex-direction:column; gap:.4rem; font:400 .9rem 'Public Sans', sans-serif; color:var(--navy, #14213D); } .ds-input { background:#E9EDF3; border:1px solid var(--rule, #D5DBE5); border-radius:2px; padding:.6rem .8rem; font:400 .95rem 'Public Sans', sans-serif; color:var(--navy, #14213D); caret-color:var(--navy, #14213D); } .ds-input:focus-visible { outline:2px solid var(--navy, #14213D); outline-offset:2px; }"
+    },
+    {
+      "name": "Sidebar Binding",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Report-navy sidebar: the serif brand and muted caption come first, closed by a hairline, then the page list with hover and current-page fills.",
+      "html": "<nav class=\"ds-nav\"><div class=\"ds-nav-brand\"><b>TaxDesk</b>Tax year 2026-27<br>Synthetic data only</div><a href=\"#\">Home</a><a href=\"#\" aria-current=\"page\">GST Reconciliation</a><a href=\"#\">ITR Regime Comparison</a><a href=\"#\">MF Capital Gains</a></nav>",
+      "css": ".ds-nav { background:var(--navy, #14213D); padding:1.5rem 1.2rem; width:16rem; display:flex; flex-direction:column; gap:2px; font-family:'Public Sans', sans-serif; } .ds-nav-brand { color:#AEB9CF; font-size:.85rem; line-height:1.55; border-bottom:1px solid #2A3B62; padding-bottom:1.1rem; margin-bottom:.8rem; } .ds-nav-brand b { display:block; font:700 1.5rem 'Source Serif 4', Georgia, serif; color:#fff; margin-bottom:.2rem; } .ds-nav a { color:#C9D2E3; font-size:.95rem; text-decoration:none; padding:.5rem .8rem; border-radius:2px; } .ds-nav a:hover { background:#1E2E52; } .ds-nav a[aria-current=page] { background:#23365F; color:#fff; font-weight:600; } .ds-nav a:focus-visible { outline:2px solid #fff; outline-offset:2px; }"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "chip-agreed",
+      "description": "Square status tags under the callout figure, one per tone: agreed, review, risk, neutral.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-chip ds-agreed\">Agreed<b>177</b></span><span class=\"ds-chip ds-review\">Amount differs<b>8</b></span><span class=\"ds-chip ds-risk\">Not in 2B<b>10</b></span><span class=\"ds-chip\">Not in books<b>6</b></span></div>",
+      "css": ".ds-chips { display:flex; flex-wrap:wrap; gap:.45rem; font-family:'Public Sans', sans-serif; } .ds-chip { border:1px solid var(--rule, #D5DBE5); background:#fff; color:var(--navy, #14213D); padding:.28rem .65rem; font-size:.88rem; border-radius:2px; } .ds-chip b { font-weight:700; margin-left:.25rem; } .ds-agreed { color:var(--agreed, #1F7A4D); border-color:#9CCBB2; background:#EEF7F2; } .ds-review { color:var(--ochre-text, #8F5E06); border-color:var(--ochre, #C98A12); background:#FBF4E6; } .ds-risk { color:var(--risk, #B42318); border-color:#E7A9A3; background:#FCEFEE; }"
+    },
+    {
+      "name": "Statement",
+      "kind": "card",
+      "refersTo": "statement-sheet",
+      "description": "Signature: Particulars, Note, Invoices, Amount on a white sheet in paise, counts whole, with brackets, a double-ruled total, risk and memo lines.",
+      "html": "<div class=\"ds-stmt\"><h2>Statement of input tax credit</h2><table><thead><tr><th>Particulars</th><th>Note</th><th>Invoices</th><th>Amount (₹)</th></tr></thead><tbody><tr><td>ITC as per purchase register</td><td class=\"ref\"><a href=\"#note-1\">1</a></td><td>200</td><td>13,00,328.88</td></tr><tr><td>Less: not reflected in GSTR-2B</td><td class=\"ref\"><a href=\"#note-2\">2</a></td><td>(10)</td><td>(45,643.20)</td></tr><tr><td>Less: shortfall on amount differences</td><td class=\"ref\"><a href=\"#note-3\">3</a></td><td>(5)</td><td>(1,958.32)</td></tr><tr class=\"total\"><td>ITC after amounts at risk</td><td></td><td></td><td>12,52,727.36</td></tr><tr class=\"risk\"><td>ITC at risk</td><td class=\"ref\"><a href=\"#note-2\">2–3</a></td><td>15</td><td>47,601.52</td></tr><tr class=\"memo\"><td>Probable matches to confirm</td><td class=\"ref\"><a href=\"#note-4\">4</a></td><td>5</td><td>27,664.81</td></tr></tbody></table></div>",
+      "css": ".ds-stmt { background:#fff; border:1px solid var(--rule, #D5DBE5); padding:1.25rem 1.5rem 1.1rem; font-family:'Public Sans', sans-serif; font-variant-numeric:tabular-nums; color:var(--navy, #14213D); } .ds-stmt h2 { font:600 1.3rem 'Source Serif 4', Georgia, serif; margin:0 0 .8rem; } .ds-stmt table { width:100%; border-collapse:collapse; font-size:.97rem; } .ds-stmt th { font-size:.74rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted, #5A6782); text-align:right; padding:.5rem .45rem; border-bottom:1px solid var(--navy, #14213D); } .ds-stmt td { padding:.62rem .45rem; border-bottom:1px solid #E6EAF0; text-align:right; line-height:1.4; white-space:nowrap; } .ds-stmt th:first-child, .ds-stmt td:first-child { text-align:left; padding-left:0; white-space:normal; } .ds-stmt td.ref { text-align:center; width:3.6rem; } .ds-stmt td.ref a { color:var(--ochre-text, #8F5E06); font-weight:700; text-decoration:none; padding:.1rem .3rem; } .ds-stmt td.ref a:hover { text-decoration:underline; } .ds-stmt td.ref a:focus-visible { outline:2px solid var(--navy, #14213D); outline-offset:2px; } .ds-stmt tr.total td { border-top:1px solid var(--navy, #14213D); border-bottom:3px double var(--navy, #14213D); font-weight:700; } .ds-stmt tr.risk td { color:var(--risk, #B42318); font-weight:700; } .ds-stmt tr.memo td { color:var(--muted, #5A6782); }"
+    },
+    {
+      "name": "Callout",
+      "kind": "card",
+      "refersTo": "callout",
+      "description": "The one headline figure beside the statement: caption, serif figure in navy, red or green, explanation.",
+      "html": "<div class=\"ds-call ds-call-risk\"><div class=\"cap\">ITC at risk this period</div><div class=\"big\">₹47,601.52</div><div class=\"cap\">on 15 invoices from 7 suppliers. See Notes 2 and 3.</div></div>",
+      "css": ".ds-call { background:#fff; border:1px solid var(--rule, #D5DBE5); padding:1.2rem 1.4rem 1.3rem; font-family:'Public Sans', sans-serif; } .ds-call .cap { color:var(--muted, #5A6782); font-size:.92rem; } .ds-call .big { font:700 2.7rem/1.1 'Source Serif 4', Georgia, serif; margin:.3rem 0 .25rem; color:var(--navy, #14213D); } .ds-call-risk .big { color:var(--risk, #B42318); } .ds-call-agreed .big { color:var(--agreed, #1F7A4D); }"
+    },
+    {
+      "name": "Note Heading and Note Total",
+      "kind": "custom",
+      "refersTo": "note-heading-number",
+      "description": "Signature: the numbered note a reference jumps to, its working table, and a double-ruled total (₹, paise) that ties to the statement line.",
+      "html": "<div class=\"ds-noteh\" id=\"note-2\" tabindex=\"-1\"><span class=\"n\">Note 2</span><span class=\"t\">Not reflected in GSTR-2B</span><span class=\"c\">10 invoices</span></div><div class=\"ds-ntot\"><span>Total ITC not reflected in GSTR-2B</span><b>₹45,643.20</b></div>",
+      "css": ".ds-noteh { display:flex; align-items:baseline; gap:.75rem; flex-wrap:wrap; border-bottom:1px solid var(--rule, #D5DBE5); padding-bottom:.45rem; margin-bottom:.8rem; } .ds-noteh .n { font:600 1.25rem 'Source Serif 4', Georgia, serif; color:var(--ochre-text, #8F5E06); } .ds-noteh .t { font:600 1.25rem 'Source Serif 4', Georgia, serif; color:var(--navy, #14213D); } .ds-noteh .c { margin-left:auto; color:var(--muted, #5A6782); font:400 .9rem 'Public Sans', sans-serif; } .ds-noteh:target, .ds-noteh:focus-visible { background:#FBF4E6; outline:none; } .ds-ntot { margin:.1rem 0 1.6rem; display:flex; justify-content:space-between; gap:1rem; padding:.5rem .1rem .45rem; border-top:1px solid var(--navy, #14213D); border-bottom:3px double var(--navy, #14213D); font:600 1rem 'Public Sans', sans-serif; color:var(--navy, #14213D); font-variant-numeric:tabular-nums; } .ds-ntot b { white-space:nowrap; font-weight:700; }"
+    },
+    {
+      "name": "Working Table",
+      "kind": "custom",
+      "refersTo": "working-table-head",
+      "description": "Note table: subject, tying amount, then supplier and GSTIN; Indian grouping, 2 decimals, negatives in brackets, closed by the note total.",
+      "html": "<table class=\"ds-wt\"><thead><tr><th style=\"width:165px\">Invoice</th><th>ITC at risk (₹)</th><th style=\"width:210px\">Supplier</th><th style=\"width:160px\">GSTIN</th><th>Taxable (₹)</th></tr></thead><tbody><tr><td>TW/26/0412</td><td class=\"n\">8,412.30</td><td>Tapi Wires Pvt Ltd</td><td>27FLHCT8028M1ZZ</td><td class=\"n\">46,735.00</td></tr><tr><td>TW/26/0457</td><td class=\"n\">(1,200.00)</td><td>Tapi Wires Pvt Ltd</td><td>27FLHCT8028M1ZZ</td><td class=\"n\">6,666.67</td></tr></tbody></table><div class=\"ds-ntot\"><span>Total ITC not reflected in GSTR-2B</span><b>₹7,212.30</b></div>",
+      "css": ".ds-wt { width:100%; border-collapse:collapse; background:#fff; border:1px solid #E1E6EE; font:400 .95rem 'Public Sans', sans-serif; font-variant-numeric:tabular-nums; color:var(--navy, #14213D); } .ds-wt th { background:#F3F5F8; color:var(--muted, #5A6782); font-weight:400; text-align:left; padding:.55rem .5rem; border:1px solid #E1E6EE; } .ds-wt td { padding:.5rem .5rem; border:1px solid #E1E6EE; white-space:nowrap; } .ds-wt td.n { text-align:right; } .ds-wt tbody tr:hover td { background:#F3F5F8; } .ds-ntot { margin:.1rem 0 1.6rem; display:flex; justify-content:space-between; gap:1rem; padding:.5rem .1rem .45rem; border-top:1px solid var(--navy, #14213D); border-bottom:3px double var(--navy, #14213D); font:600 1rem 'Public Sans', sans-serif; color:var(--navy, #14213D); font-variant-numeric:tabular-nums; } .ds-ntot b { white-space:nowrap; font-weight:700; }"
+    },
+    {
+      "name": "Approval Block",
+      "kind": "custom",
+      "refersTo": "approval-block",
+      "description": "Prepared by, Reviewed by, Date: the human sign-off written into the report.",
+      "html": "<div class=\"ds-sign\"><div>Prepared by<b>TaxDesk, 26-11-2026</b></div><div class=\"blank\">Reviewed by<b></b></div><div class=\"blank\">Date<b></b></div></div>",
+      "css": ".ds-sign { display:grid; grid-template-columns:1.3fr 1fr 1fr; background:#fff; border:1px solid var(--rule, #D5DBE5); font-family:'Public Sans', sans-serif; } .ds-sign div { padding:.8rem 1rem .9rem; border-right:1px solid var(--rule, #D5DBE5); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted, #5A6782); } .ds-sign div:last-child { border-right:0; } .ds-sign b { display:block; font-size:.95rem; letter-spacing:0; text-transform:none; font-weight:600; color:var(--navy, #14213D); min-height:1.5em; margin-top:.3rem; } .ds-sign .blank b { border-bottom:1px solid var(--muted, #5A6782); }"
+    },
+    {
+      "name": "Alert",
+      "kind": "custom",
+      "refersTo": "chip-review",
+      "description": "Streamlit alert as a square tinted sheet with a 1.8px-stroke SVG icon in the tone colour.",
+      "html": "<div class=\"ds-alert ds-alert-warning\" role=\"alert\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8F5E06\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 4.2l8.4 14.6H3.6z\"/><path d=\"M12 10v4.2\"/><path d=\"M12 16.6v.1\"/></svg><p>5 probable matches need a person to confirm. See Note 4.</p></div>",
+      "css": ".ds-alert { display:flex; gap:.7rem; align-items:flex-start; border:1px solid var(--rule, #D5DBE5); border-radius:2px; padding:.9rem 1rem; font:400 1rem 'Public Sans', sans-serif; color:var(--navy, #14213D); } .ds-alert p { margin:0; } .ds-alert-warning { border-color:var(--ochre, #C98A12); background:#FBF4E6; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Notes to Accounts",
+    "overview": "Every module reads like a page from an annual report. The working surface is a statement (Particulars, Note, Amount) set on a white sheet, and every figure that needs explaining carries an ochre Note number that jumps to a numbered note further down the page, where the invoices, lots or computation behind it sit in full tables. A report-navy sidebar binds the pages; the ground behind the sheets is a cool, quiet grey. The analyst reads the bottom lines first; the notes are there for the second, slower read.\n\nThe system is dense, flat and ruled, never decorated. Hierarchy comes from accounting convention rather than from colour blocks or cards: deductions sit in brackets, subtotals are ruled above, totals are ruled above and double-ruled below, and the one figure each statement exists to show is lifted into a callout beside it. Colour is semantic and scarce: ochre for note references and items to review, red only where money is at risk, green for agreed items and the cheaper regime's total. Two typefaces split the work: Source Serif 4 speaks for titles, statement names, note headings and the headline figure; Public Sans with tabular figures carries everything that is read or compared.\n\nThe world rejects the fintech dashboard: no row of KPI cards, no donut charts, no bright blue accent.",
+    "keyCharacteristics": [
+      "White statement sheets on a cool grey ground, bound by a report-navy sidebar.",
+      "Ochre note numbers that link (#note-n) to numbered note sections holding the working.",
+      "Accounting rules as structure: brackets for deductions, single rule over subtotals, double rule under totals.",
+      "Serif for names and the headline figure, sans with tabular figures for every number in a table.",
+      "Square 2px corners, hairline borders, no shadows."
+    ],
+    "rules": [
+      {
+        "name": "The One Meaning Rule",
+        "body": "Ochre means \"see the note\" or \"review this\"; red means \"money at risk\"; green means \"agreed\" or \"the cheaper choice\". No accent is ever used for decoration, emphasis or branding.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Is Money Rule",
+        "body": "Red appears only on a figure or line where tax credit or money is actually at risk. A validation message or a missing field is a review (ochre), not a risk.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Names, Sans Counts Rule",
+        "body": "Source Serif 4 is used for titles, statement names, note headings, the sidebar brand and the single callout figure. Every table figure, label and sentence is Public Sans with tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Column Head Rule",
+        "body": "Tracked uppercase belongs to statement column heads and approval field labels, the places a printed report uses it. It is not used as an eyebrow above titles or sections.",
+        "section": "typography"
+      },
+      {
+        "name": "The Figure Grammar Rule",
+        "body": "Every figure is set in Indian grouping (13,00,328.88). Rupee amounts tracked in paise (GST credit, fund gains, costs, sale values) show 2 decimals, both in the statement and in the note tables. Computations that are rounded by law (the regime computation, income in slab, the estimated tax on gains) show whole rupees. Counts never show decimals, even in a 2-decimal statement column. NAVs and units show 4 places, similarity scores 1. Negatives in a table sit in brackets, like deductions in a statement. The ₹ sign goes on callout figures, note totals and amounts in sentences; table columns carry plain figures with \"(₹)\" in the column head.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "A surface is either ground or a white sheet with a hairline border. Nothing floats, glows or casts a shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Ledger Rule",
+        "body": "Deductions are shown in brackets (\"(45,643.20)\", a dash when nothing is deducted), and so are negative figures in note tables; subtotals are ruled once above; totals are ruled once above and double-ruled below. A note's closing total is ruled the same way so it visibly ties to its statement line.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** open every module with the page header, then the statement and callout side by side, then numbered notes.",
+      "**Do** give every statement line that has working behind it an ochre Note number that links to its `#note-n` heading.",
+      "**Do** bracket deductions, rule subtotals once above, and rule totals once above and double (3px) below, in navy.",
+      "**Do** close a note with a ruled note total when its figure ties to a statement line.",
+      "**Do** format every figure in Indian grouping: paise (2 decimals) where the source tracks paise, whole rupees where the law rounds, no decimals on counts, 4 places on NAV and units.",
+      "**Do** put the ₹ sign on callout figures, note totals and amounts in sentences, and keep table columns plain with \"(₹)\" in the head.",
+      "**Do** order a note table's columns as subject, tying amount, then who it concerns (Invoice, amount, Supplier, GSTIN; amount, Scheme, Plan), and drop numeric columns that are zero throughout.",
+      "**Do** keep corners at 2px and borders at 1px statement rule.",
+      "**Do** end a results page with the approval block before the footer."
+    ],
+    "donts": [
+      "**Don't** build rows of KPI cards or donut charts; one callout carries the headline figure.",
+      "**Don't** introduce a bright blue accent; navy is ink and binding, not a highlight.",
+      "**Don't** use red for anything except money at risk, or ochre for anything except note references and review items.",
+      "**Don't** add shadows, gradients or lifted cards; depth is white sheet on grey ground.",
+      "**Don't** set table figures, labels or body text in the serif.",
+      "**Don't** put tracked uppercase eyebrow labels above titles or sections.",
+      "**Don't** round corners beyond 2px."
+    ]
+  }
+}

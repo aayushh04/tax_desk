@@ -22,9 +22,13 @@ def test_gst_page_end_to_end() -> None:
     at.segmented_control(key="gst_source").set_value("Sample data").run()
     next(b for b in at.button if b.label == "Reconcile").click().run()
     assert not at.exception
-    values = {m.label: m.value for m in at.metric}
-    assert values["In books, not in 2B (ITC at risk)"] == "10"
-    assert values["Probable match, needs review"] == "5"
+    html = " ".join(md.value for md in at.markdown)
+    assert "<div class='big'>₹47,601.52</div>" in html                          # headline callout
+    # the statement adds up exactly: 13,00,328.88 - 45,643.20 - 1,958.32 = 12,52,727.36
+    assert "(45,643.20)" in html and "(1,958.32)" in html and "12,52,727.36" in html
+    assert "<tr class='risk'><td>ITC at risk</td>" in html                    # statement risk line
+    assert "Not in 2B<b>10</b>" in html and "Probable<b>5</b>" in html        # status chip counts
+    assert "href='#note-2'" in html and "id='note-2'" in html                 # note reference resolves
 
 
 def test_gst_page_sample_flag_from_home() -> None:
@@ -42,7 +46,9 @@ def test_itr_page_end_to_end() -> None:
     assert not at.exception and _footer_present(at)
     next(b for b in at.button if "Compare" in b.label).click().run()
     assert not at.exception
-    assert any("New regime" in s.value and "cheaper" in s.value for s in at.success)
+    html = " ".join(md.value for md in at.markdown)
+    assert "Saving with the new regime" in html and "<div class='big'>₹" in html        # verdict callout
+    assert "<th class='pick'>New regime</th>" in html                                    # cheaper column picked
     assert not any("JVDPK4971F" in md.value for md in at.markdown)  # sample PAN never shown unmasked
 
 
@@ -51,8 +57,8 @@ def test_mf_page_end_to_end() -> None:
     at.session_state["mf_load_sample"] = True
     at.run()
     assert not at.exception and _footer_present(at)
-    values = {m.label: m.value for m in at.metric}
-    assert values["LTCG exemption used"] == "₹1,25,000"
+    html = " ".join(md.value for md in at.markdown)
+    assert "<tr class='less'><td>Less: exemption (first ₹1,25,000)</td><td class='ref'></td><td class='amt'>(1,25,000)</td>" in html
     at.selectbox[0].set_value("2022-23").run()
     assert not at.exception
     assert any("Older years had different rates" in w.value for w in at.warning)
